@@ -1,7 +1,7 @@
 from collections import Counter 
 
 # Read the file and process as two columns
-with open("data.txt", "r") as file:
+with open("Day1/data.txt", "r") as file:
     # Read lines and split into two columns
     data = [line.split() for line in file.readlines()]
 
